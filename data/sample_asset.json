@@ -1,0 +1,73 @@
+{
+  "asset": {
+    "name": "Edifício Aurora",
+    "code": "ED-001",
+    "address": "Av. Central, 123 - Centro, São Paulo/SP",
+    "inspection_date": "2024-03-15",
+    "responsible": "Maria Fernanda, Eng. Civil"
+  },
+  "summary": [
+    {
+      "topic": "Estrutura",
+      "status": "Bom",
+      "notes": "Estrutura geral em bom estado, com pequenas fissuras monitoradas."
+    },
+    {
+      "topic": "Segurança",
+      "status": "Alerta",
+      "notes": "Necessário atualizar sinalização de rotas de fuga nos pavimentos 3 e 4."
+    }
+  ],
+  "photos": [
+    {
+      "file": "fachada.jpg",
+      "caption": "Fachada principal com destaque para revestimento cerâmico.",
+      "annotations": [
+        {"type": "arrow", "from": [120, 480], "to": [260, 340]},
+        {
+          "type": "box",
+          "top_left": [300, 250],
+          "bottom_right": [420, 360]
+        },
+        {
+          "type": "text",
+          "label": "Revestimento com desplacamento",
+          "position": [310, 220]
+        }
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "location": "Cobertura",
+      "elements": [
+        {
+          "element": "Manta impermeabilizante",
+          "status": "Necessita manutenção",
+          "priority": "Alta",
+          "recommendation": "Executar reparo no perímetro norte onde foram identificados pontos de infiltração.",
+          "photo": "cobertura.jpg"
+        },
+        {
+          "element": "Ralos de drenagem",
+          "status": "Adequado",
+          "priority": "Média",
+          "recommendation": "Manter cronograma de limpeza trimestral para evitar obstruções.",
+          "photo": "ralo.jpg"
+        }
+      ]
+    },
+    {
+      "location": "Garagem Subsolo",
+      "elements": [
+        {
+          "element": "Sistema de iluminação",
+          "status": "Regular",
+          "priority": "Alta",
+          "recommendation": "Substituir lâmpadas queimadas e revisar sensores de presença.",
+          "photo": "garagem_iluminacao.jpg"
+        }
+      ]
+    }
+  ]
+}
