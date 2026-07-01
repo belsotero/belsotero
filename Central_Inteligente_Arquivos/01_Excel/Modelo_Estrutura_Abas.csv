@@ -1,0 +1,11 @@
+Aba,Ordem,Descricao
+PAINEL,1,Central de operação com botões e visualização rápida
+CONFIGURACOES,2,Parâmetros escolhidos pela usuária
+INVENTARIO_ARQUIVOS,3,Lista de arquivos e metadados
+CONTEUDO_EXTRAIDO,4,Trechos extraídos dos arquivos compatíveis
+RESULTADOS_BUSCA,5,Resultados encontrados por palavra-chave
+TRECHOS_SELECIONADOS,6,Trechos marcados para exportação
+DUPLICADOS,7,Arquivos duplicados por nome tamanho ou hash
+ALERTAS,8,Problemas e pontos de atenção
+LOG_EXECUCAO,9,Logs operacionais e técnicos
+ESTATISTICAS,10,Indicadores consolidados
